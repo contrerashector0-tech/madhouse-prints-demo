@@ -429,6 +429,50 @@ button {
   display: block;
 }
 
+.find-us-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5);
+  margin-top: var(--space-8);
+}
+
+.find-us-card {
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+  box-shadow: var(--shadow);
+}
+
+.find-us-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: var(--space-4);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.06);
+  font-size: 1.5rem;
+}
+
+.find-us-card__title {
+  margin: 0 0 var(--space-2);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.find-us-card__meta {
+  margin: 0 0 var(--space-2);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.find-us-card__text {
+  margin: 0;
+  color: var(--muted);
+}
+
 .shop-cta__inner {
   display: flex;
   align-items: center;
@@ -605,7 +649,8 @@ button {
 
   .about__inner,
   .contact__panel,
-  .footer__inner {
+  .footer__inner,
+  .find-us-grid {
     grid-template-columns: 1fr;
     flex-direction: column;
     align-items: flex-start;
