@@ -3,25 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Madhouse Prints — 3D Printed Collectibles and Custom Creations in El Paso, Texas. Articulated figures, dragons, fidget toys, Dia de los Muertos pieces, and custom orders." />
-  <title>Madhouse Prints | 3D Printed Collectibles — El Paso, TX</title>
+  <meta name="description" content="Madhouse Prints — custom 3D printed LEGO-inspired builds, articulated creatures, and fan-favorite pieces in El Paso, Texas." />
+  <title>Madhouse Prints | Fan Favorites — El Paso, TX</title>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-  <!-- ================================================
-       NAV
-  ================================================ -->
   <header class="site-header" role="banner">
     <nav class="nav container" aria-label="Main navigation">
-      <a href="#hero" class="nav__logo" aria-label="Madhouse Prints — home">
-        Madhouse Prints
+      <a href="#hero" class="nav__brand" aria-label="Madhouse Prints home">
+        <img src="images/Logo.jfif" alt="Madhouse Prints logo" class="nav__logo-image" />
+        <span class="nav__brand-text">Madhouse Prints</span>
       </a>
 
       <button
@@ -36,9 +32,7 @@
       </button>
 
       <ul class="nav__menu" id="nav-menu" role="list">
-        <li><a href="#products" class="nav__link">Collections</a></li>
-        <li><a href="#featured" class="nav__link">Fan Favorites</a></li>
-        <li><a href="#events" class="nav__link">Events</a></li>
+        <li><a href="#favorites" class="nav__link">Fan Favorites</a></li>
         <li><a href="#about" class="nav__link">About</a></li>
         <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
       </ul>
@@ -46,396 +40,169 @@
   </header>
 
   <main>
-
-    <!-- ================================================
-         HERO
-    ================================================ -->
     <section class="hero" id="hero" aria-label="Hero">
-      <div class="hero__content container">
-        <p class="hero__location" aria-label="Location: El Paso, Texas">
-          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-          El Paso, Texas
+      <div class="hero__backdrop" aria-hidden="true"></div>
+      <div class="hero__content container fade-in">
+        <p class="hero__eyebrow">El Paso, Texas · Custom 3D Prints</p>
+        <div class="hero__logo-wrap">
+          <img src="images/Logo.jfif" alt="Madhouse Prints" class="hero__logo" />
+        </div>
+        <h1 class="hero__title">Built Simple.<br />Made to Pop.</h1>
+        <p class="hero__subtitle">
+          A cleaner Madhouse look with the spotlight on the pieces people actually ask for — bold builds,
+          custom prints, and fan favorites that stand out on a dark stage.
         </p>
-        <h1 class="hero__title">Madhouse Prints</h1>
-        <p class="hero__subtitle">3D Printed Collectibles and Custom Creations</p>
-        <a href="#products" class="btn btn--primary btn--large">Browse Collection</a>
-      </div>
-      <div class="hero__bg-decoration" aria-hidden="true"></div>
-    </section>
-
-    <!-- ================================================
-         PRODUCTS
-    ================================================ -->
-    <section class="products section" id="products" aria-labelledby="products-heading">
-      <div class="container">
-        <h2 class="section__heading" id="products-heading">Our Collections</h2>
-        <p class="section__subheading">Every piece is designed and printed right here in El Paso</p>
-
-        <div class="products__grid" role="list">
-
-          <!-- Card 1: Articulated Figures -->
-          <article class="print-card" role="listitem">
-            <div class="print-card__image" aria-hidden="true">
-              <div class="print-card__image-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-              </div>
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__title">Articulated Figures</h3>
-              <p class="print-card__desc">Flexi dinosaurs, poseable dragons, and articulated sharks with satisfying segment movement — perfect for every age.</p>
-              <a href="#contact" class="btn btn--outline" aria-label="Shop Articulated Figures">Shop Now</a>
-            </div>
-          </article>
-
-          <!-- Card 2: Pop Culture -->
-          <article class="print-card" role="listitem">
-            <div class="print-card__image" aria-hidden="true">
-              <div class="print-card__image-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-              </div>
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__title">Pop Culture &amp; Characters</h3>
-              <p class="print-card__desc">Fan-favorite characters, gaming icons, and beloved figures brought to life one layer at a time.</p>
-              <a href="#contact" class="btn btn--outline" aria-label="Shop Pop Culture and Characters">Shop Now</a>
-            </div>
-          </article>
-
-          <!-- Card 3: Fidget Toys -->
-          <article class="print-card" role="listitem">
-            <div class="print-card__image" aria-hidden="true">
-              <div class="print-card__image-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
-              </div>
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__title">Fidget Toys &amp; Keychains</h3>
-              <p class="print-card__desc">Satisfying fidgets, spinners, and tiny keychains you'll actually want to carry everywhere.</p>
-              <a href="#contact" class="btn btn--outline" aria-label="Shop Fidget Toys and Keychains">Shop Now</a>
-            </div>
-          </article>
-
-          <!-- Card 4: Dragon Eggs -->
-          <article class="print-card" role="listitem">
-            <div class="print-card__image" aria-hidden="true">
-              <div class="print-card__image-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2C8 2 5 6 5 11c0 4 3 8 7 9s7-5 7-9c0-5-3-9-7-9z"/></svg>
-              </div>
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__title">Dragon Eggs &amp; Collectibles</h3>
-              <p class="print-card__desc">Shimmering dragon eggs and display-worthy collectibles in iridescent and multi-color filaments.</p>
-              <a href="#contact" class="btn btn--outline" aria-label="Shop Dragon Eggs and Collectibles">Shop Now</a>
-            </div>
-          </article>
-
-          <!-- Card 5: Dia de los Muertos -->
-          <article class="print-card" role="listitem">
-            <div class="print-card__image" aria-hidden="true">
-              <div class="print-card__image-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 3-1.5 5.5-3.5 7H8.5C6.5 14.5 5 12 5 9a7 7 0 0 1 7-7z"/><path d="M9 17v2a3 3 0 0 0 6 0v-2"/><circle cx="9.5" cy="9.5" r="1.5"/><circle cx="14.5" cy="9.5" r="1.5"/></svg>
-              </div>
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__title">Día de los Muertos Collection</h3>
-              <p class="print-card__desc">Intricate calaveras and ofrendas pieces celebrating our border culture — a love letter to El Paso heritage.</p>
-              <a href="#contact" class="btn btn--outline" aria-label="Shop Dia de los Muertos Collection">Shop Now</a>
-            </div>
-          </article>
-
-          <!-- Card 6: Custom Orders -->
-          <article class="print-card print-card--highlight" role="listitem">
-            <div class="print-card__image" aria-hidden="true">
-              <div class="print-card__image-placeholder">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-              </div>
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__title">Custom Orders</h3>
-              <p class="print-card__desc">Got a design in mind? Bring your idea and we'll make it real. Custom colors, sizes, and one-of-a-kind pieces available.</p>
-              <a href="#contact" class="btn btn--primary" aria-label="Request a Custom Order">Request a Quote</a>
-            </div>
-          </article>
-
+        <div class="hero__actions">
+          <a href="#favorites" class="btn btn--primary btn--large">See Fan Favorites</a>
+          <a href="#contact" class="btn btn--ghost btn--large">Start a Custom Order</a>
         </div>
       </div>
     </section>
 
-    <!-- ================================================
-         FEATURED
-    ================================================ -->
-    <section class="featured section section--alt" id="featured" aria-labelledby="featured-heading">
+    <section class="favorites section" id="favorites" aria-labelledby="favorites-heading">
       <div class="container">
-        <h2 class="section__heading" id="featured-heading">Fan Favorites</h2>
-        <p class="section__subheading">The pieces people keep coming back for</p>
+        <p class="section__kicker">Featured lineup</p>
+        <h2 class="section__heading" id="favorites-heading">Fan Favorites</h2>
+        <p class="section__subheading">
+          No clutter. No extra collection page. Just the pieces he wants front and center.
+        </p>
 
-        <div class="featured__grid" role="list">
-
-          <article class="featured-card" role="listitem">
-            <div class="featured-card__image" aria-hidden="true">
-              <div class="featured-card__image-placeholder">🦈</div>
+        <div class="favorites__grid" role="list">
+          <article class="favorite-card slide-up" role="listitem">
+            <div class="favorite-card__media">
+              <img src="images/blue- dino.jpg" alt="Blue LEGO-inspired dinosaur build" class="favorite-card__image" />
             </div>
-            <div class="featured-card__body">
-              <span class="featured-card__badge">Best Seller</span>
-              <h3 class="featured-card__title">Skeleton Shark</h3>
-              <p class="featured-card__desc">Fully articulated flexi shark with exposed rib detailing. Mesmerizing to hold and impossible to put down.</p>
-              <div class="featured-card__footer">
-                <span class="featured-card__price">$18 – $28</span>
-                <a href="#contact" class="btn btn--primary btn--small" aria-label="Order Skeleton Shark">Order Now</a>
-              </div>
+            <div class="favorite-card__body">
+              <span class="favorite-card__tag">LEGO Build</span>
+              <h3 class="favorite-card__title">Blue Dino</h3>
+              <p class="favorite-card__desc">A blocky, playful build that instantly gives the site more personality and hits that collector vibe right away.</p>
             </div>
           </article>
 
-          <article class="featured-card" role="listitem">
-            <div class="featured-card__image" aria-hidden="true">
-              <div class="featured-card__image-placeholder">💀</div>
+          <article class="favorite-card slide-up" role="listitem">
+            <div class="favorite-card__media">
+              <img src="images/blue-shark-skeleton.jpg" alt="Blue articulated skeleton shark print" class="favorite-card__image" />
             </div>
-            <div class="featured-card__body">
-              <span class="featured-card__badge">Community Pick</span>
-              <h3 class="featured-card__title">Día de los Muertos Figure</h3>
-              <p class="featured-card__desc">Hand-selected color filament, floral calavera detailing, and deep roots in El Paso border culture.</p>
-              <div class="featured-card__footer">
-                <span class="featured-card__price">$22 – $35</span>
-                <a href="#contact" class="btn btn--primary btn--small" aria-label="Order Dia de los Muertos Figure">Order Now</a>
-              </div>
+            <div class="favorite-card__body">
+              <span class="favorite-card__tag">Popular Piece</span>
+              <h3 class="favorite-card__title">Skeleton Shark</h3>
+              <p class="favorite-card__desc">One of the strongest visual pieces for the brand — weird, detailed, and exactly the kind of thing people stop scrolling for.</p>
             </div>
           </article>
 
-          <article class="featured-card" role="listitem">
-            <div class="featured-card__image" aria-hidden="true">
-              <div class="featured-card__image-placeholder">🥚</div>
+          <article class="favorite-card slide-up" role="listitem">
+            <div class="favorite-card__media">
+              <img src="images/blue-trex-skeleton.jpg" alt="Blue articulated skeleton T-Rex print" class="favorite-card__image" />
             </div>
-            <div class="featured-card__body">
-              <span class="featured-card__badge">New Colors</span>
-              <h3 class="featured-card__title">Rainbow Dragon Egg</h3>
-              <p class="featured-card__desc">Multi-color iridescent finish with scaled texture. A stunning display piece or thoughtful gift.</p>
-              <div class="featured-card__footer">
-                <span class="featured-card__price">$15 – $25</span>
-                <a href="#contact" class="btn btn--primary btn--small" aria-label="Order Rainbow Dragon Egg">Order Now</a>
-              </div>
+            <div class="favorite-card__body">
+              <span class="favorite-card__tag">Popular Piece</span>
+              <h3 class="favorite-card__title">Skeleton T-Rex</h3>
+              <p class="favorite-card__desc">Sharp silhouette, clean structure, and a perfect fit for a darker layout where the print gets to carry the color.</p>
             </div>
           </article>
 
-          <article class="featured-card" role="listitem">
-            <div class="featured-card__image" aria-hidden="true">
-              <div class="featured-card__image-placeholder">🦕</div>
+          <article class="favorite-card slide-up" role="listitem">
+            <div class="favorite-card__media">
+              <img src="images/gray-Wolf.jpg" alt="Gray wolf figure print" class="favorite-card__image" />
             </div>
-            <div class="featured-card__body">
-              <span class="featured-card__badge">Kid Approved</span>
-              <h3 class="featured-card__title">Articulated T-Rex</h3>
-              <p class="featured-card__desc">Every joint moves. Every kid (and adult) loves it. Available in over a dozen filament colors.</p>
-              <div class="featured-card__footer">
-                <span class="featured-card__price">$20 – $32</span>
-                <a href="#contact" class="btn btn--primary btn--small" aria-label="Order Articulated T-Rex">Order Now</a>
-              </div>
+            <div class="favorite-card__body">
+              <span class="favorite-card__tag">Fan Favorite</span>
+              <h3 class="favorite-card__title">Gray Wolf</h3>
+              <p class="favorite-card__desc">A more grounded piece that balances the lineup and keeps the showcase from feeling too samey.</p>
             </div>
           </article>
 
+          <article class="favorite-card slide-up" role="listitem">
+            <div class="favorite-card__media">
+              <img src="images/red-pterodactyl.jpg" alt="Red pterodactyl figure print" class="favorite-card__image" />
+            </div>
+            <div class="favorite-card__body">
+              <span class="favorite-card__tag">Showcase Piece</span>
+              <h3 class="favorite-card__title">Red Pterodactyl</h3>
+              <p class="favorite-card__desc">Bright, high-contrast, and made for this dark gray direction — the red pops hard without needing extra effects.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ================================================
-         EVENTS
-    ================================================ -->
-    <section class="events section" id="events" aria-labelledby="events-heading">
-      <div class="container">
-        <h2 class="section__heading" id="events-heading">Catch Us at These Events</h2>
-        <p class="section__subheading">Find us in person — see, touch, and take home your prints on the spot</p>
-
-        <div class="events__grid" role="list">
-
-          <article class="event-card" role="listitem">
-            <div class="event-card__date" aria-label="Event date: April 12">
-              <span class="event-card__month">Apr</span>
-              <span class="event-card__day">12</span>
-            </div>
-            <div class="event-card__body">
-              <h3 class="event-card__title">El Paso Makers Market</h3>
-              <p class="event-card__location">
-                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                Downtown El Paso Arts District
-              </p>
-              <p class="event-card__details">Come browse the full collection, request custom colors, and meet the maker. Free entry.</p>
-            </div>
-          </article>
-
-          <article class="event-card" role="listitem">
-            <div class="event-card__date" aria-label="Event date: May 3">
-              <span class="event-card__month">May</span>
-              <span class="event-card__day">03</span>
-            </div>
-            <div class="event-card__body">
-              <h3 class="event-card__title">Sun City Comic &amp; Pop Culture Expo</h3>
-              <p class="event-card__location">
-                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                El Paso Convention Center
-              </p>
-              <p class="event-card__details">Vendor booth with the full pop culture and articulated figure lineup. Exclusive expo colorways available only at the show.</p>
-            </div>
-          </article>
-
-          <article class="event-card" role="listitem">
-            <div class="event-card__date" aria-label="Event date: June 21">
-              <span class="event-card__month">Jun</span>
-              <span class="event-card__day">21</span>
-            </div>
-            <div class="event-card__body">
-              <h3 class="event-card__title">Borderland Craft Fair</h3>
-              <p class="event-card__location">
-                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                Ascarate Park, El Paso
-              </p>
-              <p class="event-card__details">Outdoor craft fair featuring local artisans. Special Día de los Muertos preview collection available early.</p>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ================================================
-         ABOUT
-    ================================================ -->
     <section class="about section section--alt" id="about" aria-labelledby="about-heading">
-      <div class="container">
-        <div class="about__inner">
-          <div class="about__image-wrap" aria-hidden="true">
-            <div class="about__image-placeholder">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 8h.01M12 8h.01M17 8h.01M7 11h10"/></svg>
-            </div>
+      <div class="container about__inner">
+        <div class="about__copy fade-in">
+          <p class="section__kicker">About Madhouse</p>
+          <h2 class="section__heading section__heading--left" id="about-heading">Simple site. Strong pieces.</h2>
+          <p class="about__text">
+            Madhouse Prints doesn’t need a bunch of extra noise. The work already has character. This version keeps things dark,
+            simple, and clean so the builds do the talking.
+          </p>
+          <p class="about__text">
+            From LEGO-inspired designs to creature builds and custom 3D prints, everything here is about showing the pieces people
+            actually want to see first.
+          </p>
+        </div>
+
+        <div class="about__panel slide-up" aria-label="Highlights">
+          <div class="about__stat">
+            <span class="about__stat-number">5</span>
+            <span class="about__stat-label">Featured pieces</span>
           </div>
-          <div class="about__content">
-            <h2 class="section__heading section__heading--left" id="about-heading">The Maker Behind the Madness</h2>
-            <p class="about__bio">
-              Hi, I'm the person running this whole operation out of El Paso — a full-time print nerd with a garage full of printers and a serious problem with buying new filament colors. What started as printing a few dinosaurs for my kids turned into a full-blown obsession with designing articulated figures, experimenting with exotic filaments, and finding ways to celebrate our border culture through the things I create.
-            </p>
-            <p class="about__bio">
-              Every piece that leaves my workshop is printed, checked, and packed with care. I love what I do, and I love sharing it with this community. Whether you're a collector, a gifter, or someone who just wants the coolest desk toy in the office — welcome to Madhouse Prints. It's a little chaotic here, and that's exactly the point.
-            </p>
-            <a href="#contact" class="btn btn--outline">Say Hello</a>
+          <div class="about__stat">
+            <span class="about__stat-number">1</span>
+            <span class="about__stat-label">Clean showcase page</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-number">∞</span>
+            <span class="about__stat-label">Custom build potential</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ================================================
-         CONTACT
-    ================================================ -->
     <section class="contact section" id="contact" aria-labelledby="contact-heading">
-      <div class="container">
-        <h2 class="section__heading" id="contact-heading">Get in Touch</h2>
-        <p class="section__subheading">Questions, custom orders, or just want to chat prints — we're here for it</p>
+      <div class="container contact__wrap">
+        <div class="contact__intro fade-in">
+          <p class="section__kicker">Let’s build something</p>
+          <h2 class="section__heading section__heading--left" id="contact-heading">Questions, custom orders, or a link to the shop later on.</h2>
+          <p class="contact__copy">
+            Once the Square shop link is ready, it can slide right into this layout. For now, people can still reach out directly and keep things simple.
+          </p>
+        </div>
 
-        <div class="contact__inner">
-
+        <div class="contact__panel slide-up">
           <form class="contact__form" novalidate aria-label="Contact form">
             <div class="form-group">
               <label for="contact-name" class="form-label">Your Name</label>
-              <input
-                type="text"
-                id="contact-name"
-                name="name"
-                class="form-input"
-                placeholder="What should we call you?"
-                autocomplete="name"
-                required
-              />
+              <input type="text" id="contact-name" name="name" class="form-input" placeholder="What should we call you?" autocomplete="name" required />
             </div>
             <div class="form-group">
               <label for="contact-email" class="form-label">Email Address</label>
-              <input
-                type="email"
-                id="contact-email"
-                name="email"
-                class="form-input"
-                placeholder="your@email.com"
-                autocomplete="email"
-                required
-              />
+              <input type="email" id="contact-email" name="email" class="form-input" placeholder="your@email.com" autocomplete="email" required />
             </div>
             <div class="form-group">
               <label for="contact-message" class="form-label">Message</label>
-              <textarea
-                id="contact-message"
-                name="message"
-                class="form-input form-textarea"
-                placeholder="Tell us what you're looking for, or just say hi&#8230;"
-                rows="5"
-                required
-              ></textarea>
+              <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="Tell us what piece caught your eye or what you want made..." rows="5" required></textarea>
             </div>
             <button type="submit" class="btn btn--primary btn--full">Send Message</button>
           </form>
 
-          <aside class="contact__social" aria-label="Social links">
-            <h3 class="contact__social-heading">Follow Along</h3>
-            <p class="contact__social-desc">Catch new drops, behind-the-scenes prints in progress, and event announcements on Instagram.</p>
-            <a
-              href="https://www.instagram.com/madhouseprints_"
-              class="social-link social-link--instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow Madhouse Prints on Instagram (@madhouseprints_)"
-            >
-              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-              @madhouseprints_
-            </a>
-            <div class="contact__social-note">
-              <p>Based in <strong>El Paso, Texas</strong></p>
-              <p>DMs open for custom orders &amp; questions</p>
-            </div>
+          <aside class="contact__aside" aria-label="Business details">
+            <h3 class="contact__aside-heading">Madhouse Prints</h3>
+            <p>El Paso, Texas</p>
+            <p>Instagram: <a href="https://www.instagram.com/madhouseprints_" target="_blank" rel="noopener noreferrer">@madhouseprints_</a></p>
+            <p>Online shop link can be added as soon as the Square profile is sent over.</p>
           </aside>
-
         </div>
       </div>
     </section>
-
   </main>
 
-  <!-- ================================================
-       FOOTER
-  ================================================ -->
   <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <div class="footer__inner">
-
-        <div class="footer__brand">
-          <p class="footer__logo">Madhouse Prints</p>
-          <p class="footer__tagline">3D Printed Collectibles &amp; Custom Creations<br />El Paso, Texas</p>
-          <p class="footer__copy">&copy; <span id="footer-year"></span> Madhouse Prints. All rights reserved.</p>
-        </div>
-
-        <nav class="footer__nav" aria-label="Footer navigation">
-          <h4 class="footer__nav-heading">Explore</h4>
-          <ul role="list">
-            <li><a href="#products" class="footer__link">Collections</a></li>
-            <li><a href="#featured" class="footer__link">Fan Favorites</a></li>
-            <li><a href="#events" class="footer__link">Events</a></li>
-            <li><a href="#about" class="footer__link">About</a></li>
-            <li><a href="#contact" class="footer__link">Contact</a></li>
-          </ul>
-        </nav>
-
-        <div class="footer__social" aria-label="Social media links">
-          <h4 class="footer__nav-heading">Follow Us</h4>
-          <ul role="list">
-            <li>
-              <a
-                href="https://www.instagram.com/madhouseprints_"
-                class="footer__link footer__social-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram: @madhouseprints_"
-              >
-                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                Instagram
-              </a>
-            </li>
-          </ul>
-        </div>
-
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__logo">Madhouse Prints</p>
+        <p class="footer__tagline">3D prints, fan favorites, and custom builds that hit harder on a dark backdrop.</p>
       </div>
+      <p class="footer__copy">&copy; <span id="footer-year"></span> Madhouse Prints. All rights reserved.</p>
     </div>
   </footer>
 
