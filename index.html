@@ -109,35 +109,50 @@
       </div>
     </section>
 
-    <section class="about section section--alt" id="about" aria-labelledby="about-heading">
+    <section class="shop-cta section section--alt" aria-labelledby="shop-heading">
+      <div class="container shop-cta__inner fade-in">
+        <div>
+          <p class="section__kicker">Online shop</p>
+          <h2 class="section__heading section__heading--left" id="shop-heading">Ready to shop?</h2>
+        </div>
+        <a href="#" class="btn btn--primary btn--large shop-cta__button" aria-disabled="true">Click Here to Shop</a>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-heading">
       <div class="container about__inner">
         <div class="about__copy fade-in">
           <p class="section__kicker">About Madhouse</p>
-          <h2 class="section__heading section__heading--left" id="about-heading">Simple site. Strong pieces.</h2>
+          <h2 class="section__heading section__heading--left" id="about-heading">Custom prints with real character.</h2>
           <p class="about__text">
-            Madhouse Prints doesn’t need a bunch of extra noise. The work already has character. This version keeps things dark,
-            simple, and clean so the builds do the talking.
+            Madhouse Prints is all about bold 3D printed pieces that stand out the second you see them — from LEGO-inspired builds
+            and articulated skeleton creatures to collectible figures with a lot more personality than the usual shelf filler.
           </p>
           <p class="about__text">
-            From LEGO-inspired designs to creature builds and custom 3D prints, everything here is about showing the pieces people
-            actually want to see first.
+            Every piece is made to catch eyes, start conversations, and give collectors something fun, weird, and memorable to bring home.
+            Whether it’s a fan favorite or a custom idea, the focus is on prints that look good and feel worth showing off.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+    <section class="contact section section--alt" id="contact" aria-labelledby="contact-heading">
       <div class="container contact__wrap">
         <div class="contact__intro fade-in">
-          <p class="section__kicker">Let’s build something</p>
-          <h2 class="section__heading section__heading--left" id="contact-heading">Questions, custom orders, or a link to the shop later on.</h2>
+          <p class="section__kicker">Get in touch</p>
+          <h2 class="section__heading section__heading--left" id="contact-heading">Questions and custom orders</h2>
           <p class="contact__copy">
-            Once the Square shop link is ready, it can slide right into this layout. For now, people can still reach out directly and keep things simple.
+            Want to ask about a piece, request a custom build, or check on pricing? Send a message here and it’ll go straight to Madhouse Prints.
           </p>
         </div>
 
         <div class="contact__panel slide-up">
-          <form class="contact__form" novalidate aria-label="Contact form">
+          <form class="contact__form" action="https://formsubmit.co/matthewmorales8692@yahoo.com" method="POST" novalidate aria-label="Contact form">
+            <input type="hidden" name="_subject" value="New Message - Madhouse Prints" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://contrerashector0-tech.github.io/madhouse-prints-demo/#contact" />
+
             <div class="form-group">
               <label for="contact-name" class="form-label">Your Name</label>
               <input type="text" id="contact-name" name="name" class="form-input" placeholder="What should we call you?" autocomplete="name" required />
@@ -148,7 +163,7 @@
             </div>
             <div class="form-group">
               <label for="contact-message" class="form-label">Message</label>
-              <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="Tell us what piece caught your eye or what you want made..." rows="5" required></textarea>
+              <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="Tell Madhouse Prints what you're looking for..." rows="5" required></textarea>
             </div>
             <button type="submit" class="btn btn--primary btn--full">Send Message</button>
           </form>
@@ -157,7 +172,7 @@
             <h3 class="contact__aside-heading">Madhouse Prints</h3>
             <p>El Paso, Texas</p>
             <p>Instagram: <a href="https://www.instagram.com/madhouseprints_" target="_blank" rel="noopener noreferrer">@madhouseprints_</a></p>
-            <p>Online shop link can be added as soon as the Square profile is sent over.</p>
+            <p>The Square shop button is ready — just send the link and it can be dropped in.</p>
           </aside>
         </div>
       </div>

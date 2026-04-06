@@ -429,6 +429,17 @@ button {
   display: block;
 }
 
+.shop-cta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+}
+
+.shop-cta__button[aria-disabled="true"] {
+  opacity: 0.9;
+}
+
 .contact__panel {
   background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03));
   border: 1px solid var(--line);
@@ -478,6 +489,10 @@ button {
 .form-input:focus {
   outline: 2px solid rgba(255,255,255,0.2);
   outline-offset: 2px;
+}
+
+.form-input--error {
+  border-color: rgba(255, 141, 141, 0.9);
 }
 
 .form-textarea {
@@ -550,6 +565,11 @@ button {
 @media (max-width: 900px) {
   .nav {
     grid-template-columns: auto 1fr auto;
+  }
+
+  .shop-cta__inner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .nav__hamburger {
