@@ -436,6 +436,16 @@ button {
   margin-top: var(--space-8);
 }
 
+.find-us-subsection {
+  margin-top: var(--space-16);
+}
+
+.social-grid .event-card a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .event-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
